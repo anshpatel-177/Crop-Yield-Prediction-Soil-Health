@@ -546,7 +546,8 @@ with tab2:
     # -------------------------------
 
     if st.button(
-       "🌱 Analyze Soil Health", type="primary", key="analyze_soil_health_btn"
+       "🌱 Analyze Soil Health", type="primary", key="soil_health_analysis_button"
+       
     ):
 
         score, health = calculate_soil_health(
