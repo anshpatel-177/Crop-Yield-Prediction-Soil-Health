@@ -577,7 +577,7 @@ with tab2:
             st.error(
                 f"🌱 Soil Health: {health}"
             )
-        if st.button("🌱 Analyze Soil Health", type="primary", key="analyze_soil_health_btn"):
+        if st.button("🌱 Analyze Soil Health", type="primary", key="analyzes_soils_health_btn"):
                     st.subheader("🌿 Soil Improvement Suggestions")
 
         recommendations = generate_soil_recommendations(
